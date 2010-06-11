@@ -1,0 +1,33 @@
+<ul id="nav" class="nav">
+	<li><a href="index.php" style="padding-top:10px;padding-bottom:10px;text-align:center;border-left:2px solid #000;">Home</a></li>
+	<li><a href="product_lines.php" style="text-align:center;">Product<br>Lines</a>
+		<ul>
+			<li><a href="trans_spec.php">Transmission Specialties&reg;</a></li>
+			<li><a href="sure_cure.php">Sure Cure&reg;</a></li>
+			<li><a href="tranny_tools.php">Tranny Tools&trade;</a></li>
+			<li><a href="sonna_flow.php">SonnaFlow&reg;</a></li>
+			<li><a href="torque_converter.php">torque converter</a></li>
+			<li><a href="hp_transmission.php">high performance transmission</a></li>
+			<li><a href="hp_converter.php">high performance torque converters</a></li>
+			<li><a href="allison.php">allison&reg;</a></li>
+			<li><a href="ring_gears.php">Ring Gears</a></li>
+			<li><a href="harley_davidson.php">Harley-Davidson&reg;</a></li>
+			<li><a href="driveline.php">Driveline</a></li>
+			<li><a href="powertrain.php">PowerTrainSavers&reg;</a></li>
+		</ul>
+	</li>
+	<li><a href="quick_search.php" style="text-align:center;">Quick<br>Search</a></li>
+	<li><a href="how_to_order.php" style="text-align:center;">How to<br>Order</a></li>
+	<li><a href="tech_info.php" style="text-align:center;">Technical<br>Information</a></li>
+	<li style="border-right:0;"><a href="#" style="text-align:center;">About<br>Us</a>
+		<ul style="width:133px;">
+			<li style="width:133px;"><a href="history.html">History/Mission</a></li>
+			<li style="width:133px;"><a href="tasc_force.html">Tasc Force&trade;</a></li>
+			<li style="width:133px;"><a href="jobs.html">Career Opportunities</a></li>
+			<li style="width:133px;"><a href="directions.html">Directions</a></li>
+			<li style="width:133px;"><a href="request_catalog.php">Catalog Request</a></li>
+			<li style="width:133px;"><a href="international.html">Sonnax International</a></li>
+			<li style="width:133px;"><a href="contact_us.php">Contact Us</a></li>
+		</ul>
+	</li>
+</ul>

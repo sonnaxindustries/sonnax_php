@@ -1,0 +1,5 @@
+AuthName "Sonnax Admin"
+AuthType Basic
+AuthUserFile /etc/httpd/conf/sonnaxadmin
+
+require user tom

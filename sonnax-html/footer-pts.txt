@@ -1,0 +1,8 @@
+<h5>Sonnax<span class="dot;"><img src="images/footer-dot.jpg" width="12" height="4" alt="dot"></span>
+1 Automatic Drive<span class="dot;"><img src="images/foooter-dot.jpg" width="12" height="4" alt="dot"></span>
+Bellows Falls<span class="dot;"><img src="images/footer-dot.jpg" width="12" height="4" alt="dot"></span>
+Vermont<span class="dot;"><img src="images/footer-dot.jpg" width="12" height="4" alt="dot"></span>&nbsp;05101-0440
+	
+<span style="padding-left:121px">800-843-2600<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
+802-463-9722<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
+<a href="mailto:info@sonnax.com">info@sonnax.com</a></span></h5>

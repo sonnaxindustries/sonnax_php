@@ -1,0 +1,138 @@
+body {background-color: #fff;color: #000;font: normal 100% arial,helvetica,sans-serif;line-height: 1.2em;}
+h1 {margin: .6em 0;color: #000;font-size:32px;text-align:center;}
+h2 {margin:0 0 20px 0;color: #000;font-size:24px;text-align:center;}
+h3 {margin: .4em 0;font-size: 16px;color: #000;}
+
+
+#container {background-color: #fff; margin:0 auto;padding: 0;width: 800px;border: 1px solid #3A2574;}
+#header {background: #fff url(../images/header.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_gen {background: #fff url(../images/header_gen.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_tranny {background: #fff url(../images/header_tranny.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_trans {background: #fff url(../images/header_trans.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_hp_trans {background: #fff url(../images/header_hp_trans.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_sure {background: #fff url(../images/header_sure.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_sonna {background: #fff url(../images/header_sonna.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_hp_torque {background: #fff url(../images/header_hp_torque.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_torque {background: #fff url(../images/header_torque.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_harley {background: #fff url(../images/header_harley.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_international {background: #fff url(../images/header_international.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_driveline {background: #fff url(../images/header_driveline.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_powertrain {background: #fff url(../images/header_powertrain.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_ringgear {background: #fff url(../images/header_ringgear.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_allison {background: #fff url(../images/header_allison.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_about {background: #fff url(../images/header_about.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_tasc_force {background: #fff url(../images/header_tasc_force.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_trade {background: #fff url(../images/header_trade.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+#header_cart_tc {background: #fff url(../images/header_cart_tc.jpg) top left;margin: 0;padding: 0;width: 800px;height: 120px;}
+
+.header h3{margin: 0;padding-top: 30px;font-size: 14px;color: #000;text-align:center;}
+
+#main {clear: both;width: 100%;margin: 0;padding: 0;background-color:transparent;}
+#main h6 {margin:0;padding-right:6px;text-align:right;}
+
+#nav, #nav ul {float: left;width: 800px;height:auto;list-style: none;line-height: 1;background: #3A2773;font-weight: bold;padding: 0;border: solid #000;border-width: 1px 0;margin: 0 0 1em 0;font:normal 11px/14px arial,helvetica,sans-serif;text-transform:uppercase;}
+#nav a {display: block;width: 132px;color: #fff;text-decoration: none;padding:3px 0 3px 0;}
+#nav li {float: left;padding: 0;width: 132px; border-right: 1px solid #000;}
+#nav li ul {position: absolute;left: -999em;height: auto;width: 230px;font-weight: normal;border-width: 1px;margin: 0;/*opacity: .95;*/}
+/* * html #nav li ul {background-color: transparent;}
+* html #nav li li {background: #fff;filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=90);} */
+#nav li li {padding-left: 6px;width: 224px;border-bottom: 1px solid #E1B546;}
+#nav li ul a {width: 230px;}
+#nav li ul ul {margin: -1.75em 0 0 14em;margin: -1.7em 0 0 13.95em;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {left: -999em;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul{left: auto;}
+#nav li:hover, #nav li.sfhover {background: #CC9933;}
+ul.nav iframe {position: absolute;left: -0.25em;top: -0.25em;z-index: -1;filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);}
+* html ul.nav li { z-index: 201; }
+/* select.hide { visibility: hidden; } */
+
+
+
+#right_content {width:50%;height:auto;float:right;margin: 0;padding:0;font:normal 12px/16px arial,helvetica,sans-serif;display:block;text-align:left;}
+#right_content p {margin: 0;padding:0;font:normal 12px/16px arial,helvetica,sans-serif;padding:10px 10px 0 0;}
+#right_content a:link {border:0;}
+#right_content img {border:0;}
+
+.left_content {margin-right:50%;height:auto;width:auto;font:normal 12px/16px arial,helvetica,sans-serif;}
+.left_content p {margin:0;padding:0;font:normal 12px/16px arial,helvetica,sans-serif;}
+.left_content img {float:left;border:0;padding: 10px 0 10px 10px;margin:0;}
+.left_content h5 {font:normal 11px/14px arial,helvtica,sans-serif;margin:0;padding:10px 0 10px 10px;}
+
+.content {width: auto;margin:0;padding:10px; clear:both;}
+.content h3 {margin: 6px 0 6px 0; 0;font-size:14px;color: #000;}
+.content h4 {margin: 4px 0 4px 0; 0;font-size:12px;color: #000;}
+.content h5 {margin: 2px 0 0 20px; 0;font-size:12px;color: #000;}
+.content h6 {margin: 6px 0 10px 20px; 0;font-size:12px;color: #FF2A00;font-weight:normal;}
+.content p {font:normal 12px/16px arial,helvetica,sans-serif; padding:0 0 10px 0;margin:0;}
+.content li {font:normal 12px/16px arial,helvetica,sans-serif;}
+.content a:link {font-size: 12px;color: #3A2773;}
+.content a:visited {font-size: 12px;color: #000;}
+.content a:hover {font-size: 12px;color: #CC9933;}
+.content table {font:bold 12px/16px arial,helvetica,sans-serif;}
+
+#scroll {height: 300px;width: 778px;overflow: auto;background-color: #fff;padding:0;margin: 0;border: 1px solid #3A2574;font:normal 12px/12px arial,helvetica,sans-serif;display:block;}
+
+div#scroll .shortest {width:40px;height:14px;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .short {width:60px;height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .med_short {width:80px;height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .med_short2 {width:90px;height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+/*
+the "color: #FFFFFF;" in med_short_highlighted and med_highlighted styles elow
+dosesnt do what I need (color: #FFFFFF; and background-color:#3A4783;) because 
+the text in those areas in linked text and the link style overides the div style
+*/
+div#scroll .med_short_highlighted {width:80px;height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;text-decoration:none;background-color:#3A4783;}
+div#scroll .med {width:100px; height:auto/*14px*/;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .med2 {width:120px; height:auto/*14px*/;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px; text-wrap:none;}
+div#scroll .med_highlighted {width:100px; height:auto/*14px*/;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;text-decoration:none;background-color:#3A4783;}
+div#scroll .med_long {width:130px; height:14px;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .med_long2 {width:130px; height:auto/*14px*/;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .long1 {width:156px; height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .long2 {width:306px; height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div#scroll .full {width:auto;height:auto;text-align: left;margin: 0;padding:2px 0 2px 10px;background-color:#8F8F8F;font-weight:bold;text-transform:uppercase;display:block;color:#fff;}
+div#scroll .full_indent {width:auto;height:auto;text-align: left;margin-left: 60px;padding:2px 0 2px 10px;background-color:#8F8F8F;font-weight:bold;text-transform:uppercase;display:block;color:#fff;font-size:10px;}
+div#scroll input {height:11px;width:25px;font:normal 10px/10px arial,helvetica,sans-serif;}
+div#scroll .line {clear:both;margin:0;padding:0;border-bottom: 1px solid #ccc;display:block;}
+
+
+.scroll_inner {height: auto;width: 1200px;}
+div.scroll_inner .longest {width:156px; height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div.scroll_inner .shorter {width:120px; height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+div.scroll_inner .line {clear:both;margin:0;padding:0;border-bottom: 1px solid #ccc;display:block;}
+
+
+#search {padding:0;margin: 0;font:normal 12px/12px arial,helvetica,sans-serif;}
+div#search .long {width:auto;height:auto;float:left;text-align: left;margin: 0;padding:2px 0 2px 10px;}
+
+.catalog {float:left;width:194px;}
+.catalog p {padding: 6px 14px 20px 14px;}
+.catalog img {padding-left:22px;}
+.new {clear:right;margin:0;}
+
+form {padding:0;margin:0;z-index:1000;}
+.form {font:normal 12px/14px arial,helvetica,sans-serif;color: #000;margin:0;padding:0;text-align: left;}
+.submit {margin:0;color: #000;padding: 2px 6px 0 6px;background-color: #fff; font:normal 12px/14px arial,helvetica,sans-serif;border: 1px solid #3A2574;}
+input.submit:hover{background-color: #000; color:#fff;} 
+.label, .field, dropdown, .labelset {display: block;float: left;margin-bottom: 6px;}
+.field {width: auto;}
+.label {text-align: right;width: auto;color: #000;padding-right: 10px;padding-top:2px;}
+.labelset {text-align: right;width: 150px;color: #000;padding-right: 10px;padding-top:2px;}
+.dropdown {width: auto;z-index:2000;}
+.form br {clear: left;}
+.form p {text-align: center;}
+.required {font-weight:bold; padding:0; margin:0;}
+textarea {margin-top:6px;}
+
+.clear {clear: both;height: 1px;overflow: hidden;margin: 0;}
+.cleaner {clear: both;height: 20px;overflow: hidden;margin: 0;}
+.clnr {clear: both;height: 5px;overflow: hidden;margin: 0;}
+
+
+#footer {background-color: #3A2773;width:800px;height:auto;color: #fff;margin: 0;padding:0;}
+#footer h5 {padding: 2px 4px 2px 4px;margin: 0;font:normal 12px/16px arial,helvetica,sans-serif;}
+#footer a {color: #fff;font:normal 12px/16px arial,helvetica,sans-serif;text-decoration:none;}
+div#footer .dot {margin:0;padding:0;}
+div.spacer {clear: both;}
+
+#copy {margin:4px auto;padding: 0;width: 800px; background-color:#fff;color:#000;}
+#copy h6 {padding:0;margin:0;font:bold 10px/14px arial,helvetica,sans-serif;text-align:left;}

@@ -1,0 +1,7 @@
+<?php
+require_once "includes/generic_functions.php";
+
+$get = parsePartfinderForceTypeVariables();
+//var_dump($get);
+require_once "part_finder.php";
+?>

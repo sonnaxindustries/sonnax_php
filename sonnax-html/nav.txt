@@ -1,0 +1,87 @@
+<ul id="nav" class="nav">
+	
+
+<li><a href="index.php" style="padding-top:10px;padding-bottom:10px;text-align:center;">Home</a></li>
+	
+
+<li><a href="product_lines.php" style="text-align:center;">Product<br>Lines</a>
+		
+
+<ul>
+			
+
+<li><a href="trans_spec.php" onfocus='if(this.blur)this.blur();'>Transmission</a></li>
+			
+
+<li><a href="torque_converter.php" onfocus='if(this.blur)this.blur();'>torque converter & HP Converter</a></li>
+			
+
+<li><a href="hp_transmission.php" onfocus='if(this.blur)this.blur();'>high performance transmission</a></li>
+			
+
+<li><a href="allison.php" onfocus='if(this.blur)this.blur();'>allison&reg;</a></li>
+			
+
+<li><a href="ring_gears.php" onfocus='if(this.blur)this.blur();'>Ring Gears</a></li>
+			
+
+<li><a href="harley_davidson.php" onfocus='if(this.blur)this.blur();'>Harley-Davidson&reg;</a></li>
+			
+
+<li><a href="driveline.php" onfocus='if(this.blur)this.blur();'>Driveline</a></li>
+			
+
+<li style="border-bottom:none"><a href="powertrain.php" onfocus='if(this.blur)this.blur();'>Power Train Savers&reg;</a></li>
+		</ul>
+	</li>
+	
+
+<li><a href="quick_search.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Quick<br>Search</a></li>
+	
+
+<li><a href="how_to_order.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>How to<br>Order</a></li>
+	
+
+<li><a href="tech_info.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Technical<br>Information</a></li>
+	
+
+<li style="border-right:0;width:135px;"><a href="#" style="text-align:center;" onfocus='if(this.blur)this.blur();'>About<br>Us</a>
+		
+
+<ul style="width:150px;margin:0;padding:0;">
+			
+
+<li style="width:150px;padding:0;"><a href="history.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;History/Mission</a></li>
+
+
+
+<li style="width:150px;padding:0;"><a href="international.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax International</a></li>
+
+			
+
+<li style="width:150px;padding:0;"><a href="tasc_force.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Tasc Force&trade;</a></li>
+
+
+
+<li style="width:150px;padding:0;"><a href="request_catalog.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Catalog Request</a></li>
+
+
+<li style="width:150px;padding:0;"><a href="directions.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Directions</a></li>
+
+
+
+<li style="width:150px;padding:0;"><a href="jobs.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Career Opportunities</a></li>
+									
+
+<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=4" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Schedule of Events</a></li>
+
+
+<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=2" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax News</a></li>
+
+
+
+<li style="width:150px;padding:0;border-bottom:none;"><a href="contact_us.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Contact Us</a></li>
+
+		</ul>
+	</li>
+</ul>

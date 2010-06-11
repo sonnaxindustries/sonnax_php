@@ -1,0 +1,11 @@
+IP: 154.5.208.205| pass: savers| time: Thu Jun 19 15:35:39 2003
+IP: 154.5.208.205| pass: savers| time: Thu Jun 19 15:35:51 2003
+IP: 154.5.208.205| pass: | time: Thu Jun 19 15:36:16 2003
+IP: 154.5.208.205| pass: savers| time: Thu Jun 19 15:36:39 2003
+IP: 209.121.27.49| pass: savers| time: Mon Jul  7 00:48:10 2003
+IP: 209.121.27.49| pass: savers| time: Mon Jul  7 00:48:31 2003
+IP: 209.121.27.49| pass: saver| time: Mon Jul  7 00:48:44 2003
+IP: 209.121.27.49| pass: save| time: Mon Jul  7 00:49:21 2003
+IP: 209.121.27.49| pass: savers| time: Mon Jul  7 00:49:31 2003
+IP: 209.121.27.49| pass: rtsavers| time: Mon Jul  7 10:51:24 2003
+IP: 207.6.4.193| pass: prsavers| time: Wed Jul 30 15:43:34 2003

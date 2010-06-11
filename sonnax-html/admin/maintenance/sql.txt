@@ -1,0 +1,36 @@
+
+SELECT *
+FROM `assembly_parts`
+LEFT JOIN `parts` ON `assembly_parts`.`part_id` = `parts`.`id`
+WHERE `assembly_parts`.`part_id` >2700
+AND `assembly_parts`.`part_id` <2800
+AND `parts`.`id` IS NULL 
+
+
+DELETE `assembly_parts`.* 
+FROM `assembly_parts` 
+LEFT JOIN `parts` ON `assembly_parts`.`part_id` = `parts`.`id`
+WHERE `assembly_parts`.`part_id` >2700
+AND `assembly_parts`.`part_id` <2800
+AND `parts`.`id` IS NULL
+
+---------------------------------
+
+SELECT `unit_components`.* 
+FROM `unit_components` 
+LEFT JOIN `parts` 
+	ON `unit_components`.`assembly_or_part_id` = `parts`.`id`
+WHERE `unit_components`.`component_type` = 0 
+AND `parts`.`id` IS NULL
+
+
+DELETE `unit_components`.* 
+FROM `unit_components` 
+LEFT JOIN `parts` 
+	ON `unit_components`.`assembly_or_part_id` = `parts`.`id`
+WHERE `unit_components`.`component_type` = 0 
+AND `parts`.`id` IS NULL
+
+
+
+4273,555,3657,4011,3843,3938,3937,3938,3937,3903,3710,3843,3667,3701,3667,3492,3776,3791,3776,3776,3731,3710,3701,3667,3657,3601,3540,3528,3550,3540,3374,3492,3374,3375,3374,2483,4090,4091,4092,4093,4094,4095,4096,4097,4099,3550,4309,4334

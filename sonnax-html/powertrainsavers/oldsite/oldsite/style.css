@@ -1,0 +1,52 @@
+body {
+	background-color: #330066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	font-weight: bold;
+	scrollbar-arrow-color:#FFFF00; 
+	scrollbar-base-color:#3366CC; 
+	scrollbar-highlight-color:#FFFF00; 
+
+}
+
+H1,H2,H3,H4,H5 {color:#33CC00; 	line-height: 26px}
+
+a.nav:link, a.nav:visited {
+	color: #333399; text-decoration:none;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 8px;
+
+}
+a.nav:hover {
+	color: #FFFFFF;
+}
+
+td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+A:link, A:visited { color:#FFFF00; text-decoration:none }
+A:active { color:#000000; text-decoration:none }
+A:hover { color:#FFFFFF; text-decoration:none }
+
+.Dark-on-Colour {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.table-bg {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #9966CC;
+	line-height: 24px;
+	text-transform: capitalize;
+
+}

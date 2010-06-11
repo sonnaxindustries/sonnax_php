@@ -1,0 +1,88 @@
+/* CSS Document */
+
+body {
+	font-size: 11px;
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-color: #CCCCCC;
+
+	background-image: url(images/back_tile.gif);
+
+}
+A:link, A:visited { color:#333333; text-decoration:underline; }
+A:active { color:#CCCCCC; text-decoration:none; }
+A:hover { color:#0066FF; text-decoration:none; }
+
+
+a.nav:link, a.nav:visited {
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+}
+a.nav:hover {
+	color: #0066FF;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+a.nav1:link, a.nav1:visited {
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+}
+a.nav1:hover {
+	color: #0066FF;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+	
+
+#dropmenudiv{
+position:absolute;
+border:1px solid black;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+}
+
+.style1 {	font-size: 11.5px;
+
+	color: #333333;
+
+}
+.style2 {	font-size: 12.5px;
+
+	color: #000000;
+	line-height:14px;
+}
+
+.style3 {	font-size: 11.5px;
+
+	color: #000000;
+	line-height:12px;
+}
+
+body,td,th {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11.5px;
+
+	color: #333333;
+
+}
+
+

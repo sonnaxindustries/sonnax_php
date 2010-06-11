@@ -1,0 +1,7 @@
+ls /var/www/html/announcements | mail toml@vtweb.com -s "/var/www/html/announcements listing"
+ls /var/www/html/exploded-views | mail toml@vtweb.com -s "/var/www/html/exploded-views listing"
+ls /var/www/html/instructions | mail toml@vtweb.com -s "/var/www/html/instructions listing"
+ls /var/www/html/part-images | mail toml@vtweb.com -s "/var/www/html/part-images listing"
+ls /var/www/html/sonnaflow-charts | mail toml@vtweb.com -s "/var/www/html/sonnaflow-charts listing"
+ls /var/www/html/tech | mail toml@vtweb.com -s "/var/www/html/tech listing"
+ls /var/www/html/tech-articles | mail toml@vtweb.com -s "/var/www/html/tech-articles listing"
