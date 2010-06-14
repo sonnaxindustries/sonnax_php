@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
    "http://www.w3.org/TR/html4/strict.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -152,93 +152,8 @@ function handleOut() {
   </div>
   <div align="center"></div>
 </div>
-<ul id="nav" class="nav">
-	
-
-<li><a href="index.php" style="padding-top:10px;padding-bottom:10px;text-align:center;">Home</a></li>
-	
-
-<li><a href="product_lines.php" style="text-align:center;">Product<br>Lines</a>
-		
-
-<ul>
-			
-
-<li><a href="trans_spec.php" onfocus='if(this.blur)this.blur();'>Transmission</a></li>
-			
-
-<li><a href="torque_converter.php" onfocus='if(this.blur)this.blur();'>torque converter & HP Converter</a></li>
-			
-
-<li><a href="hp_transmission.php" onfocus='if(this.blur)this.blur();'>high performance transmission</a></li>
-			
-
-<li><a href="allison.php" onfocus='if(this.blur)this.blur();'>allison&reg;</a></li>
-			
-
-<li><a href="ring_gears.php" onfocus='if(this.blur)this.blur();'>Ring Gears</a></li>
-			
-
-<li><a href="harley_davidson.php" onfocus='if(this.blur)this.blur();'>Harley-Davidson&reg;</a></li>
-			
-
-<li><a href="driveline.php" onfocus='if(this.blur)this.blur();'>Driveline</a></li>
-			
-
-<li style="border-bottom:none"><a href="powertrain.php" onfocus='if(this.blur)this.blur();'>Power Train Savers&reg;</a></li>
-		</ul>
-	</li>
-	
-
-<li><a href="quick_search.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Quick<br>Search</a></li>
-	
-
-<li><a href="how_to_order.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>How to<br>Order</a></li>
-	
-
-<li><a href="tech_info.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Technical<br>Information</a></li>
-	
-
-<li style="border-right:0;width:135px;"><a href="#" style="text-align:center;" onfocus='if(this.blur)this.blur();'>About<br>Us</a>
-		
-
-<ul style="width:150px;margin:0;padding:0;">
-			
-
-<li style="width:150px;padding:0;"><a href="history.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;History/Mission</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="international.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax International</a></li>
-
-			
-
-<li style="width:150px;padding:0;"><a href="tasc_force.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Tasc Force&trade;</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="request_catalog.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Catalog Request</a></li>
-
-
-<li style="width:150px;padding:0;"><a href="directions.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Directions</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="jobs.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Career Opportunities</a></li>
-									
-
-<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=4" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Schedule of Events</a></li>
-
-
-<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=2" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax News</a></li>
-
-
-
-<li style="width:150px;padding:0;border-bottom:none;"><a href="contact_us.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Contact Us</a></li>
-
-		</ul>
-	</li>
-</ul><div id="main">
+<?php require "nav.txt";?>
+<div id="main">
   
   <div id="left_content">
   <div align="center"></div>
@@ -304,7 +219,7 @@ src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch
         </tr>
                 
                 <tr valign="middle">
-                  <th height="40" colspan="4" class="ISOreference" scope="col"><div align="center"><a href="ISO90012008CERTIFICATE.pdf" class="ISOreference" target="_blank">Sonnax Industries is an ISO 9001: 2008 Registered Company</a>
+                  <th height="40" colspan="4" class="ISOreference" scope="col"><div align="center">Sonnax is an ISO 9001:2000 registered company. 
 
                   </div></th>
           </tr>
@@ -317,20 +232,14 @@ src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch
     </table>
     </span></div>
 <div align="center" class="ISOreference" id="footer">
-  <h5>Sonnax<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-1 Automatic Drive<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-Bellows Falls<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-Vermont<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>&nbsp;05101-0440
-	
-<span style="padding-left:121px">800-843-2600<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-802-463-9722<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-<a href="mailto:info@sonnax.com">info@sonnax.com</a></span></h5></div>
+  <?php require "footer.txt";?>
+</div>
 </div>
 <div class="ISOreference" id="copy"> This website and all of its contents are the intellectual property of Sonnax Industries, Inc.  No portion of this work may be reproduced or transmitted in any form or by any means, mechanical or electronic, including photocopying and/or recording, or by any other information storage and/or retrieval system without the prior written consent of Sonnax Industries, Inc.  Sonnax customers may use the part numbers only for the limited purpose of placing orders with Sonnax or otherwise operating their business, but in no case is permission granted to any customer, business entity, or individual to utilize the part numbers in order to compete with Sonnax. &copy; 2008 Sonnax Industries, Inc. Sonnax Transmission, Torque Converter, Performance, Driveline, Allison&reg; Replacement Parts for automotive aftermarket rebuilders.</div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-	_uacct="UA-2838819-1";
-	urchinTracker('index.php');
-</script>
+<?php
+$virtual_page = "index.php";
+include_once "includes/analyticstracking.php";
+?>
+
 </body>
 </html>

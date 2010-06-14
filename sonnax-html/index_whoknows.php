@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
    "http://www.w3.org/TR/html4/strict.dtd">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -64,6 +64,7 @@ function handleOut() {
 
 //-->
 </script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 <style type="text/css">
 <!--
 .ISOreference {font-size: 10px}
@@ -73,18 +74,14 @@ function handleOut() {
 	color: #024368;
 	font-family: Arial, Helvetica, sans-serif;
 }
--->
-</style>
-<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
-<link href="style.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-<!--
+
+
+
 .productheaderlink {
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	color: #000;
 }
 .BodyText {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -102,8 +99,12 @@ function handleOut() {
 	font-size: 12px;
 	text-align: center;
 }
-
-
+a:link {
+	color: #024368;
+}
+a:visited {
+	color: #024368;
+}
 .Intro-text {
 	color: #000000;
 	font-size: 11.5pt;
@@ -123,13 +124,7 @@ function handleOut() {
 	float: none;
 }
 .sonnax-insider {font-size: 14px}
-.style3 {font-size: 16px}
-.style5 {
-	font-size: 18px;
-	color: #024368;
-	font-weight: bold;
-}
-.style7 {font-size: small}
+
 -->
 </style>
 </head>
@@ -152,95 +147,10 @@ function handleOut() {
   </div>
   <div align="center"></div>
 </div>
-<ul id="nav" class="nav">
-	
+<?php require "nav.txt";?>
+<div id="main">
 
-<li><a href="index.php" style="padding-top:10px;padding-bottom:10px;text-align:center;">Home</a></li>
-	
-
-<li><a href="product_lines.php" style="text-align:center;">Product<br>Lines</a>
-		
-
-<ul>
-			
-
-<li><a href="trans_spec.php" onfocus='if(this.blur)this.blur();'>Transmission</a></li>
-			
-
-<li><a href="torque_converter.php" onfocus='if(this.blur)this.blur();'>torque converter & HP Converter</a></li>
-			
-
-<li><a href="hp_transmission.php" onfocus='if(this.blur)this.blur();'>high performance transmission</a></li>
-			
-
-<li><a href="allison.php" onfocus='if(this.blur)this.blur();'>allison&reg;</a></li>
-			
-
-<li><a href="ring_gears.php" onfocus='if(this.blur)this.blur();'>Ring Gears</a></li>
-			
-
-<li><a href="harley_davidson.php" onfocus='if(this.blur)this.blur();'>Harley-Davidson&reg;</a></li>
-			
-
-<li><a href="driveline.php" onfocus='if(this.blur)this.blur();'>Driveline</a></li>
-			
-
-<li style="border-bottom:none"><a href="powertrain.php" onfocus='if(this.blur)this.blur();'>Power Train Savers&reg;</a></li>
-		</ul>
-	</li>
-	
-
-<li><a href="quick_search.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Quick<br>Search</a></li>
-	
-
-<li><a href="how_to_order.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>How to<br>Order</a></li>
-	
-
-<li><a href="tech_info.php" style="text-align:center;" onfocus='if(this.blur)this.blur();'>Technical<br>Information</a></li>
-	
-
-<li style="border-right:0;width:135px;"><a href="#" style="text-align:center;" onfocus='if(this.blur)this.blur();'>About<br>Us</a>
-		
-
-<ul style="width:150px;margin:0;padding:0;">
-			
-
-<li style="width:150px;padding:0;"><a href="history.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;History/Mission</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="international.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax International</a></li>
-
-			
-
-<li style="width:150px;padding:0;"><a href="tasc_force.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Tasc Force&trade;</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="request_catalog.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Catalog Request</a></li>
-
-
-<li style="width:150px;padding:0;"><a href="directions.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Directions</a></li>
-
-
-
-<li style="width:150px;padding:0;"><a href="jobs.html" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Career Opportunities</a></li>
-									
-
-<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=4" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Schedule of Events</a></li>
-
-
-<li style="width:150px;padding:0;"><a href="http://blog.sonnax.com/?page_id=2" target="_blank" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Sonnax News</a></li>
-
-
-
-<li style="width:150px;padding:0;border-bottom:none;"><a href="contact_us.php" onfocus='if(this.blur)this.blur();'>&nbsp;&nbsp;Contact Us</a></li>
-
-		</ul>
-	</li>
-</ul><div id="main">
-  
-  <div id="left_content">
+<div id="left_content">
   <div align="center"></div>
   
       <table width="780" border="0" align="center" cellpadding="5">
@@ -248,26 +158,28 @@ function handleOut() {
                   <th colspan="3" scope="col"><p align="justify" class="Intro-text"><strong><em>Sonnax</em></strong> is a diversified supplier of specialized drivetrain products to the automotive and commercial vehicle industries, and to industrial sectors utilizing drivetrain technology. </p>                  </th>
         </tr>
                 <tr>
-                  <td width="152" valign="top"><div align="center"><a href="http://www.sonnax.com/trans_spec.php"><img src="images/TS-parts.jpg" alt="Transmission Specialties!" width="150" height="133" hspace="0" vspace="0" border="1" align="top"></a></div></td>
+                  <td width="152"><div align="center"><a href="http://www.sonnax.com/trans_spec.php"><img src="images/TS-parts.jpg" alt="Transmission Specialties!" width="150" height="133" hspace="0" vspace="0" border="1" align="top"></a></div></td>
                 <td align="left" valign="top" class="BodyText" scope="col"><p><a href="http://www.sonnax.com/trans_spec.php" class="productheaderlink"><strong>Transmission Parts</strong></a><br> 
                   <span class="BodyText">Sold under the label Transmission Specialties®, Sonnax transmission parts are known in the automatic transmission repair industry for effectively restoring full operation of automatic transmissions and salvaging expensive valve bodies. The Transmission Specialties product catalog has become the de facto industry instruction manual, guiding builders from transmission complaints to product solutions. Popular Sure Cure<strong>®</strong> kits provide the key products to repair a particular unit. For more on performance transmission products, click <u><a href="http://www.sonnax.com/hp_transmission.php">here</a></u><a href="http://www.sonnax.com/hp_transmission.php">.</a> </span></p></td>
                   <td width="175" rowspan="7" align="left" valign="top" bordercolor="1"><div align="center">
                     <script type="text/javascript" 
 
 src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch=true"></script>
-                    <a href="solenoids.php"><img src="campaigns/solenoid-cores-home-page.gif" alt="Solenoid Cores" width="140" height="213" border="0" align="top"></a><br>
-  </div>
-
-<p align="center" class="photo-head"><br>
-  Become a<br>
-  Sonnax Insider<br>
-  <span class="productheaderlink">Get the scoop on new Sonnax products, industry happenings and technical resources!<br>
-  </span><span class="subhead"><a href="insider.html">Learn more...</a><br>
-  <br>
-  </span></p>
+                    <a href="insider.html" target="_blank" class="photo-head">Get the latest <br>
+                    Product News!<br>
+                    </a><span class="style5">Become a</span><br>
+                    <span class="photo-head"><span class="style3">SONNAX INSIDER!</span><br>
+  </span><a href="insider.html" target="_blank"><img src="sonnaflow3.png" alt="Win a SonnaFlow!" width="115" height="158" border="0"><br>
+  </a><a href="http://www.sonnax.com/announcements/FM-01KA.pdf" target="_blank" class="photo-caption"><strong>SonnaFlow Info</strong></a><a href="insider.html"><br>
+  </a></div>
 <p align="center" class="photo-head"><a href="tech_info.php#spanish">Informaci&oacute;n en Espa&ntilde;ol<br>
-  </a><a href="http://blog.sonnax.com/" target="_blank"><span class="photo-caption"><br>
-  </span></a></p>
+  <br>
+</a><strong><a href="http://blog.sonnax.com/?page_id=2" target="_blank">Sonnax News</a></strong><br />
+  </a><span class="photo-caption"><a href="http://blog.sonnax.com/?page_id=2" target="_blank"><img src="blog.png" alt="SONNAX NEWS! " width="175" height="98" border="0"></a></span><a href="http://blog.sonnax.com"><br />
+    </a><span class="rightsidebarsub style7"><strong><a href="http://blog.sonnax.com/?page_id=2" target="_blank">Sonnax was named a Preferred Partner of 2008 <br>
+    by Jasper</a></strong></span></p>
+<p align="center"><span class="photo-head">Visit our</span><a href="http://blog.sonnax.com/" target="_blank"><span class="photo-caption"><br>
+</span></a><a href="http://archive.constantcontact.com/fs092/1101913914829/archive/1102780439386.html" target="_blank"><strong><img src="archive.gif" alt="Sonnax Newsletters" width="175" height="40" border="0"></strong></a></p>
 <p align="center"><a href="sitemap.html" target="_blank"><strong>SITE MAP</strong></a></p></td>
         </tr>
                 <tr>
@@ -290,7 +202,7 @@ src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch
                   <td height="2" colspan="2"></td>
                 </tr>
                 <tr valign="top">
-                  <td height="145"><div align="center"><a href="http://www.sonnax.com/hp_transmission.php"><img src="images/HP.jpg" alt="High Performance!" width="150" height="133" hspace="0" vspace="0" border="1" align="top" valign="top"></a></div></td>
+                  <td height="212"><div align="center"><a href="http://www.sonnax.com/hp_transmission.php"><img src="images/HP.jpg" alt="High Performance!" width="150" height="133" hspace="0" vspace="0" border="1" align="top" valign="top"></a></div></td>
 <td align="left" class="ISOreference" scope="col"><p><span class="productheaderlink"><a href="http://www.sonnax.com/hp_transmission.php"><strong>High Performance Parts</strong></a></span> <br>
                       <span class="BodyText">Sonnax provides high performance components for automatic transmissions and torque converters for racing and other extreme service conditions. A full line of components for the Powerglide transmission, a longtime staple of performance racing, is complemented by a growing line of enhanced products for other popular heavy duty, performance applications. Sonnax also offers informed technical support to builders in selecting parts to fit their performance requirements.</span></p></td>
         </tr>
@@ -304,7 +216,7 @@ src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch
         </tr>
                 
                 <tr valign="middle">
-                  <th height="40" colspan="4" class="ISOreference" scope="col"><div align="center"><a href="ISO90012008CERTIFICATE.pdf" class="ISOreference" target="_blank">Sonnax Industries is an ISO 9001: 2008 Registered Company</a>
+                  <th height="40" colspan="4" class="ISOreference" scope="col"><div align="center">Sonnax is an ISO 9001:2000 registered company. 
 
                   </div></th>
           </tr>
@@ -317,20 +229,14 @@ src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch
     </table>
     </span></div>
 <div align="center" class="ISOreference" id="footer">
-  <h5>Sonnax<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-1 Automatic Drive<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-Bellows Falls<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-Vermont<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>&nbsp;05101-0440
-	
-<span style="padding-left:121px">800-843-2600<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-802-463-9722<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="dot"></span>
-<a href="mailto:info@sonnax.com">info@sonnax.com</a></span></h5></div>
+  <?php require "footer.txt";?>
+</div>
 </div>
 <div class="ISOreference" id="copy"> This website and all of its contents are the intellectual property of Sonnax Industries, Inc.  No portion of this work may be reproduced or transmitted in any form or by any means, mechanical or electronic, including photocopying and/or recording, or by any other information storage and/or retrieval system without the prior written consent of Sonnax Industries, Inc.  Sonnax customers may use the part numbers only for the limited purpose of placing orders with Sonnax or otherwise operating their business, but in no case is permission granted to any customer, business entity, or individual to utilize the part numbers in order to compete with Sonnax. &copy; 2008 Sonnax Industries, Inc. Sonnax Transmission, Torque Converter, Performance, Driveline, Allison&reg; Replacement Parts for automotive aftermarket rebuilders.</div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-	_uacct="UA-2838819-1";
-	urchinTracker('index.php');
-</script>
+<?php
+$virtual_page = "index.php";
+include_once "includes/analyticstracking.php";
+?>
+
 </body>
 </html>
