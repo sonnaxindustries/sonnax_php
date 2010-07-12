@@ -4,8 +4,8 @@
     </head>
     <body>
     	<?php
-    	$email_address = "ep@sonnax.com"; //"terryheinel@gmail.com";
-    	
+    	//$email_address = "ep@sonnax.com"; //"terryheinel@gmail.com";
+    	$email_address = "elpatter@svcable.net"
         exec( 'ls /home/htmldocs/sonnax/announcements | mail ' . $email_address . '  -s "/home/htmldocs/sonnax/announcements listing"' );
         echo "Announcements listing email sent<br />\n";
         

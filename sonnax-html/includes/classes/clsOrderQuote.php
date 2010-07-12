@@ -67,7 +67,7 @@ class OrderQuote extends Order {
 
 		$strSubject = "Quote Request";
 		$strFrom = "SonnaxWebsite@sonnax.com";
-		$strTo = 'internetorders@sonnax.com,Blaiser1@hughes.net,nate@theklaibers.com';
+		$strTo = 'internetorders@sonnax.com,nate@theklaibers.com';
 		$strHeaders = "From: ".$strFrom."\r\n".
 						"MIME-Version: 1.0\r\n" .
 						"Content-type: text/html; charset=UTF-8\r\n";
