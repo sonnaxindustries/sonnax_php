@@ -32,7 +32,7 @@ font-size:100%;
 <div id="right_content">
 <p>Sonnax is proud to offer a full line of aluminum Driveline
 components, engineered for improved assembly, outstanding
-performance and greater durability. Our weld yolks are
+performance and greater durability. Our weld yokes are
 constructed from high-quality T6061 aluminum. Sonnax also
 offers aluminum driveline tubing by Alcoa.</p>
 <p>Sonnax is also the exclusive distributor of light-duty Power Train
