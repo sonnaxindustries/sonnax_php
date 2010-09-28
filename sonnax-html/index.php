@@ -327,10 +327,23 @@ Vermont<span class="dot;"><img src="images/dot.jpg" width="12" height="4" alt="d
 <a href="mailto:info@sonnax.com">info@sonnax.com</a></span></h5></div>
 </div>
 <div class="ISOreference" id="copy"> This website and all of its contents are the intellectual property of Sonnax Industries, Inc.  No portion of this work may be reproduced or transmitted in any form or by any means, mechanical or electronic, including photocopying and/or recording, or by any other information storage and/or retrieval system without the prior written consent of Sonnax Industries, Inc.  Sonnax customers may use the part numbers only for the limited purpose of placing orders with Sonnax or otherwise operating their business, but in no case is permission granted to any customer, business entity, or individual to utilize the part numbers in order to compete with Sonnax. &copy; 2008 Sonnax Industries, Inc. Sonnax Transmission, Torque Converter, Performance, Driveline, Allison&reg; Replacement Parts for automotive aftermarket rebuilders.</div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-	_uacct="UA-2838819-1";
-	urchinTracker('index.php');
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2838819-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  $('a[href$="pdf"]').click(function(e) {
+    var pageInfo = $(this).attr('href') + " (" + $(this).attr('title') + ")";
+    _gaq.push(['_trackEvent', 'PDF', 'Downloaded', pageInfo]);
+  });
 </script>
 </body>
 </html>
