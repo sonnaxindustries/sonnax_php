@@ -22,8 +22,10 @@ $virtual_page = str_replace("&reg;","",$virtual_page);    //precaution
   })();
   
   $('a[href$="pdf"]').click(function(e) {
-    var pageInfo = $(this).attr('href') + " (" + $(this).attr('title') + ")";
+    var pageUrl = $(this).attr('href');
+    var pageInfo = pageUrl + " (" + $(this).attr('title') + ")";
     _gaq.push(['_trackEvent', 'PDF', 'Downloaded', pageInfo]);
+    _gaq.push(['_trackPageview', pageUrl]);
   });
 </script>
 
