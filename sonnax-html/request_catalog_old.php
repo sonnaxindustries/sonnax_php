@@ -134,10 +134,10 @@ font-size:100%;
 <br>
 		<form name='order_catalog' id='order_catalog' method='get' action='request_catalog_exe.php' class='form'>
 <div class="catalog">
-  <div align="left"><img src="images/TransmissionCover.jpg" alt="Transmission Specialties&reg; Catalog, Volume 7" width="144" height="181" align="top">
+  <div align="left"><img src="images/ts7cover-cd.jpg" alt="Transmission Specialties&reg; Catalog, Volume 7" width="155" height="160" align="top">
   </div>
-<p>Transmission Products Catalog, Vol. 8 Available Now! <br>
-			  Select: <input type=checkbox name="catalog[]" value="Transmission Specialties Catalog, Volume 8"></p>
+<p>Transmission Specialties&reg; Catalog, Volume 7 on CD Available Now! <br>
+			  Select: <input type=checkbox name="catalog[]" value="Transmission Specialties Catalog, Volume 7 on CD"></p>
 			  <p>&nbsp;</p>
 		  </div>
 			
