@@ -263,12 +263,12 @@ Select:
 	      </div>
 			<a name="TransRpt"></a>
 		  <div class="catalog">
-		    <div align="left"><a href="tech-articles/sonnax-trans-report_v1n1.pdf" target="_blank"><img src="images/transreportv1n1.gif" alt="Transmission Report" width="145" height="188" align="top" border="0"></a></div>
+		    <div align="left"><a href="tech-articles/sonnax-trans-report_v1n2.pdf" target="_blank"><img src="images/transreportv1n2.gif" alt="Transmission Report" width="145" height="188" align="top" border="0"></a></div>
 	      <p>Transmission Report<br>
                 Select:
                 <input type=checkbox name="catalog[]10" value="Transmission Report Newsletter">
                 <br>
-                <a href="tech-articles/sonnax-trans-report_v1n1.pdf" target="_blank">Click here</a> to view the Transmission Report (3MB PDF)
+                <a href="tech-articles/sonnax-trans-report_v1n2.pdf" target="_blank">Click here</a> to view the Transmission Report (4.25MB PDF)
             </p>
 	      </div>
 		  <p>&nbsp;</p>
